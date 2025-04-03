@@ -1,0 +1,76 @@
+
+function()
+for i in range():
+for(int i=0;i<n;i++)
+fopen("file.txt", "r");
+finally:
+filter_function = filter(lambda x: x > 0, iterable)
+from module import function
+fclose(file);
+variable_name
+void function()
+vector<int> v;
+class ClassName
+cout << "Hello, World!";
+cout << variable;
+console.log("Debug message");
+cin >> variable;
+object.method()
+def function_name():
+debugger;
+document.getElementById("id")
+df = pd.DataFrame()
+dictionary = {}
+while condition:
+write(fd, buffer, size);
+if condition:
+import module
+int main() {
+elif condition:
+else:
+except Exception as e:
+try:
+t.start();
+return value
+return 0;
+return response.json();
+reduce_function = reduce(lambda x, y: x + y, iterable)
+read(fd, buffer, size);
+lambda x: x * 2
+let response = await fetch(url);
+list_variable = list()
+system.out.println("Hello, World!");
+set_variable = set()
+std::unordered_map<int, int> umap;
+std::stack<int> stack;
+std::set<int> set_var;
+std::queue<int> queue;
+std::priority_queue<int> pq;
+std::multiset<int> mset;
+std::deque<int> deque_var;
+std::ifstream infile("file.txt");
+std::ofstream outfile("file.txt");
+using namespace std;
+printf("Hello, World!\n");
+printf("%d", variable);
+print("")
+public static void main(String[] args) {
+}
+new Object()
+async function fetchData() {
+array = []
+Promise.resolve(value)
+System.out.println("Java message");
+System.in.read();
+String[] array = new String[10];
+Scanner sc = new Scanner(System.in);
+List<String> list = new ArrayList<>();
+Map<Key, Value> map = new HashMap<>();
+map_function = map(lambda x: x, iterable)
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+ExecutorService executor = Executors.newFixedThreadPool(10);
+CompletableFuture.runAsync(() -> task);
+Future<Integer> future = executor.submit(callableTask);
+Files.readAllLines(Paths.get("file.txt"));
+Files.write(Paths.get("file.txt"), data);
+Thread t = new Thread(runnableTask);
