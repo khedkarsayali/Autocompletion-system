@@ -44,3 +44,7 @@ Ensure Python is installed (version 3.6+).
 Place normal_dictionary.txt and coding_dictionary.txt in the same directory as main.py.
 
 Run the app:  python main.py   (Make sure in the folder where main.py and the dictionaries are loaded)
+
+DEMO : 
+
+
