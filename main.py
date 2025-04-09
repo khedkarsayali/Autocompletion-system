@@ -119,7 +119,9 @@ class AutoCompleteApp:
         self.theme_button = ttk.Button(self.main_frame, text="Switch UI Mode", command=self.toggle_theme)
         self.theme_button.pack(pady=5)
 
-    
+        self.clear_button = ttk.Button(self.main_frame, text="Clear", command=self.clear_textbox)
+        self.clear_button.pack(pady=5)
+
     def update_ui(self):
         if self.mode.get() == "inserting":
             self.insert_button_frame.pack(pady=5)
@@ -163,13 +165,17 @@ class AutoCompleteApp:
         if self.theme.get() == "light":
             self.theme.set("dark")
             self.root.configure(bg="#2E2E2E")
-            self.textbox.configure(bg="#1E1E1E", fg="white", insertbackground="white")  # Cursor color changed
+            self.textbox.configure(bg="#1E1E1E", fg="white", insertbackground="white")  
             self.listbox.configure(bg="#1E1E1E", fg="white")
         else:
             self.theme.set("light")
             self.root.configure(bg="white")
-            self.textbox.configure(bg="white", fg="black", insertbackground="black")  # Cursor color changed back
+            self.textbox.configure(bg="white", fg="black", insertbackground="black")  
             self.listbox.configure(bg="white", fg="black")
+
+    
+    def clear_textbox(self):
+        self.textbox.delete("1.0", tk.END)
 
 if __name__ == "__main__":
     root = tk.Tk()
