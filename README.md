@@ -45,6 +45,7 @@ Place normal_dictionary.txt and coding_dictionary.txt in the same directory as m
 
 Run the app:  python main.py   (Make sure in the folder where main.py and the dictionaries are loaded)
 
-DEMO : 
+DEMO : [![Watch the demo](image.png)](demo_image.mp4)
+
 
 
