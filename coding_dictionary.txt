@@ -34,6 +34,7 @@ t.start();
 return value
 return 0;
 return response.json();
+return 10;
 reduce_function = reduce(lambda x, y: x + y, iterable)
 read(fd, buffer, size);
 lambda x: x * 2
@@ -55,6 +56,8 @@ printf("Hello, World!\n");
 printf("%d", variable);
 print("")
 public static void main(String[] args) {
+public static void main()
+{
 }
 new Object()
 async function fetchData() {
